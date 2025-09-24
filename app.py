@@ -5,7 +5,7 @@ import re
 import blockChain
 
 app = Flask(__name__)
-
+#database cred
 app.secret_key = 'your secret key'
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
